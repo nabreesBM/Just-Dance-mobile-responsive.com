@@ -1,0 +1,1254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Root */
+:root{
+    ---pink:#fc2981;
+    ---purple:#43164f;
+    ---white:#ffffff;
+    ---gray:#595959;
+    ---lightgray:#f8f8f8;
+    ---yellow:#FDCC0D;
+    ---dark:#cc1c65;
+}
+/* Root */
+
+/* Body */
+*{
+margin: 0px;
+padding: 0px;
+border: none;
+outline: none;
+text-decoration: none;
+text-transform: uppercase;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+html{
+font-size: 100%;
+scroll-behavior: smooth;
+scroll-padding-top: 0px;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+section{
+padding: 20px 150px;
+}
+/*body*/
+
+/*header*/
+.header{
+    background-color: transparent;
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header .container nav{
+    display: flex;
+    align-items: center;
+}
+.header .container nav .navbar{
+    margin-right: 30px;
+    z-index: 7;
+}
+.header .container nav .navbar .link a{
+    font-size: 20px;
+    color: var(---purple);
+    font-weight: 400;
+    padding: 0px 20px;
+    padding-top: 65px;
+    padding-bottom: 20px;
+    border-radius: 0px 0px 20px 20px;
+}
+.header .container nav .navbar .link a:hover{
+    background: linear-gradient(90deg, var(---pink),var(---dark));
+    color: var(---white);
+}
+.header .container nav .right{
+    display: flex;
+    align-items: center;
+}
+.header .container nav .right button{
+    width: 200px;
+    height: 80px;
+    background: linear-gradient(90deg, var(---pink),var(---dark));
+    border-radius: 10px;
+    color: var(---white);
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.header .container nav .right button:hover{
+    box-shadow: 0px 20px 30px #cc1c65a8;
+}
+.header .container nav .right #menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    border: 2px solid var(---pink);
+    border-radius: 10px;
+    color: var(---pink);
+    font-size: 30px;
+    cursor: pointer;
+    margin-right: 30px;
+    display: none;
+}
+/*header*/
+
+/*hero area*/
+.hero{
+    background-color: transparent;
+}
+.hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero .heroslider{
+    width: 700px;
+    margin-right: 0px;
+}
+.hero .heroslider .imagebox{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.hero .heroslider .imagebox .image{
+    background-color: transparent;
+}
+.hero .container .text h2{
+    font-size: 40px;
+    color: var(---pink);
+    font-weight: 600;
+}
+.hero .container .text h1{
+    font-size: 100px;
+    color: var(---purple);
+    font-weight: 700;
+    line-height: 130px;
+}
+.hero .container .text span{
+    font-size: 160px;
+    color: var(---pink);
+    font-weight: 900;
+}
+.hero .container .text p{
+    font-size: 20px;
+    color: var(---gray);
+    line-height: 40px;
+    margin-top: 10px;
+}
+.hero .container .text .button{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.hero .container .text .button button{
+    width: 200px;
+    height: 80px;
+    background: linear-gradient(90deg, var(---pink),var(---dark));
+    border-radius: 10px;
+    color: var(---white);
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.hero .container .text .button a{
+    font-size: 20px;
+    color: var(---purple);
+    font-weight: 600;
+    margin-left: 30px;
+}
+.hero .container .text .button button:hover{
+    box-shadow: 0px 20px 30px #cc1c65a8;
+}
+/*hero area*/
+
+/*service*/
+.service{
+    background-color: transparent;
+    margin-top: 150px;
+}
+.service .heading{
+    text-align: center;
+}
+.service .heading h1{
+    font-size: 80px;
+    color: var(---purple);
+    font-weight: 400;
+}
+.service .heading h2{
+    font-size: 40px;
+    color: var(---pink);
+    font-weight: 600;
+    text-decoration: underline;
+}
+.service .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.service .container .box{
+    width: 510px;
+    height: 100%;
+    background-color: var(---white);
+    border-radius: 20px; 
+    box-shadow: 0px 0px 30px #cc1c6536;
+}
+.service .container .image img{
+    border-radius: 20px 20px 0px 0px;
+    cursor: pointer;
+    width: 100%;
+}
+.service .container .box .text{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.service .container .box .text h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(---purple);
+}
+.service .container .box .text p{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(---gray);
+    margin: 5px 0px;
+}
+.service .container .box .text .btn{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(---purple);
+}
+.service .container .box .text .btn:hover{
+    color: var(---pink);
+    font-weight: 700;
+}
+/*service*/
+
+/*about*/
+.about{
+    background-color: transparent;
+    margin-top: 150px;
+}
+.about .container .about-image img{
+    width: 100%;
+}
+.about .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about .container .text h2{
+    font-size: 40px;
+    color: var(---pink);
+    font-weight: 600;
+}
+.about .container .text h1{
+    font-size: 80px;
+    color: var(---purple);
+    font-weight: 400;
+}
+.about .container .text span{
+    color: var(---pink);
+    text-decoration: underline;
+    font-weight: 600;
+}
+.about .container .text p{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(---gray);
+    line-height: 40px;
+    margin-top: 15px;
+}
+.about .container .text .button{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+.about .container .text .button button{
+    width: 200px;
+    height: 80px;
+    background: linear-gradient(90deg, var(---pink),var(---dark));
+    border-radius: 10px;
+    color: var(---white);
+    font-size: 20px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.about .container .text .button a{
+    font-size: 20px;
+    color: var(---purple);
+    font-weight: 600;
+    margin-left: 30px;
+}
+.about .container .text .button button:hover{
+    box-shadow: 0px 20px 30px #cc1c65a8;
+}
+/*about*/
+
+/*tes*/
+.tes{
+    background-color: transparent;
+    margin-top: 150px;
+}
+.tes .heading{
+    text-align: center;
+}
+.tes .heading h1{
+    font-size: 80px;
+    color: var(---purple);
+    font-weight: 400;
+}
+.tes .heading h2{
+    font-size: 40px;
+    color: var(---pink);
+    font-weight: 600;
+    text-decoration: underline;
+}
+.tes .tesslider{
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.tes .tesslider .box{
+    background-color: transparent;
+    text-align: center;
+    width: 100%;
+    padding: 30px 0px;
+}
+.tes .tesslider .box .image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tes .tesslider .box .image img{
+    border-radius: 100%;
+    border: 5px solid var(---white);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.151);
+}
+.tes .tesslider .box .image .text{
+    margin-left: 10px;
+}
+.tes .tesslider .box .image .text h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: var(---purple);
+}
+.tes .tesslider .box .image .text p{
+    font-size: 20px;
+    font-weight: 600;
+    color: var(---pink);
+}
+.tes .tesslider .line{
+    background-color: var(---pink);
+    width: 490px;
+    height: 10px;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.tes .tesslider .textbox{
+    width: 1350px;
+    height: 400px;
+    background-color: var(---lightgray);
+    border: 5px solid var(---white);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.144);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.tes .tesslider .textbox h1{
+    font-size: 150px;
+    height: 80px;
+    color: var(---pink);
+}
+.tes .tesslider .textbox p{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 600;
+    color: var(---gray);
+    margin: 20px 0px;
+}
+.tes .tesslider .textbox .star i{
+    font-size: 30px;
+    color: var(---yellow);
+    padding: 0px 5px;
+}
+/*tes*/
+
+/*contact*/
+.contact{
+    background-color: transparent;
+    margin-top: 150px;
+}
+.contact .container{
+    background: linear-gradient(90deg, var(---dark),var(---pink));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    border-radius: 80px;
+    border: 10px solid var(---white);
+    box-shadow: 0px 20px 50px #cc1c658f;
+}
+.contact .container .text{
+    text-align: center;
+}
+.contact .container .text h1{
+    font-size: 60px;
+    color: var(---white);
+    font-weight: 400;
+}
+.contact .container .text p{
+    font-size: 20px;
+    color: var(---white);
+    font-weight: 400;
+    line-height: 40px;
+    margin-top: 10px;
+}
+.contact .container .text .input{
+    width: 850px;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    background-color: var(---white);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.contact .container .text .input input{
+    width: 100%;
+    height: 115px;
+    border-radius: 20px 0px 0px 20px;
+    font-size: 20px;
+    color: var(---purple);
+    font-weight: 500;
+    padding-left: 30px;
+}
+.contact .container .text .input input::placeholder{
+    color: var(---purple);
+}
+.contact .container .text .input button{
+    width: 180px;
+    height: 70px;
+    background-color: var(---pink);
+    color: var(---white);
+    font-weight: 500;
+    font-size: 16px;
+    margin-right: 30px;
+    border-radius: 10px;
+    border: 2px solid var(---white);
+    box-shadow: 0px 10px 20px #cc1c6548;
+    cursor: pointer;
+}
+/*contact*/
+
+/*footer*/
+.footer{
+    background-color: var(---white);
+    border-top: 2px solid #cc1c655b;
+    margin-top: 150px;
+}
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer .container .logo{
+    text-align: center;
+}
+.footer .container .logo .icon{
+    display: flex;
+    align-items: center;
+}
+.footer .container .logo .icon i{
+    font-size: 20px;
+    border: 2px solid var(---purple);
+    color: var(---purple);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.footer .container .logo .icon i:hover{
+    border: 2px solid var(---pink);
+    color: var(---pink);
+}
+.footer .container .right{
+    display: flex;
+}
+.footer .container .right .link{
+    background-color: transparent;
+    margin-left: 100px;
+}
+.footer .container .right .link .navbar a{
+    display: block;
+}
+.footer .container .right .link h1{
+    font-size: 30px;
+    color: var(---purple);
+    font-weight: 400;
+}
+.footer .container .right .link .navbar a{
+    font-size: 16px;
+    color: var(---purple);
+    font-weight: 500;
+    line-height: 40px;
+}
+.footer .container .right .link .navbar a:hover{
+    color: var(---pink);
+}
+.footer .last{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.footer .last p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(---purple);
+}
+.footer .last .right-data{
+    display: flex;
+}
+.footer .last .right-data a{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(---purple);
+    margin-left: 20px;
+}
+.footer .last div.right-data a:hover{
+    color: var(---pink);
+}
+/*footer*/
+
+
+
+
+
+/* media quries */
+
+@media (max-width:1828px) {
+    .service .container .box{
+        width: 480px;
+        background-color: var(---white);
+        border-radius: 20px; 
+        box-shadow: 0px 0px 30px #cc1c6536;
+    }
+}
+@media (max-width:1772px) {
+    section{
+        padding: 20px 100px;
+    }
+}
+@media (max-width:1674px) {
+    section{
+        padding: 20px 75px;
+    }
+
+}
+@media (max-width:1590px) {
+    section{
+        padding: 20px 50px;
+    }
+    .service .container .box{
+        width: 450px;
+        background-color: var(---white);
+        border-radius: 20px; 
+        box-shadow: 0px 0px 30px #cc1c6536;
+    }
+    .service .container .box .text p{
+        font-size: 18px;
+        font-weight: 500;
+        color: var(---gray);
+        margin: 5px 0px;
+    }
+    .about .container .about-image{
+        width: 630px;
+    }
+}
+@media (max-width:1486px) {
+    .header .container nav .navbar .link a{
+        font-size: 18px;
+        color: var(---purple);
+        font-weight: 400;
+        padding: 0px 10px;
+        padding-top: 100%;
+        padding-bottom: 20px;
+    }
+    .service .container .box{
+        width: 430px;
+        background-color: var(---white);
+        border-radius: 20px; 
+        box-shadow: 0px 0px 30px #cc1c6536;
+    }
+    .about .container .about-image{
+        width: 520px;
+    }
+    .tes .tesslider .textbox{
+        width: 1200px;
+        height: 400px;
+        background-color: var(---lightgray);
+        border: 5px solid var(---white);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.144);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+}
+@media (max-width:1390px) {
+    section{
+        padding: 20px 35px;
+    }
+    .hero .heroslider{
+        width: 650px;
+        margin-right: 0px;
+    }
+    .hero .heroslider .imagebox .image img{
+        width: 100%;
+    }
+    .service .container .box{
+        width: 400px;
+        background-color: var(---white);
+        border-radius: 20px; 
+        box-shadow: 0px 0px 30px #cc1c6536;
+    }
+    .about .container .about-image{
+        width: 460px;
+    }
+    .footer .container .right .link{
+        background-color: transparent;
+        margin-left: 80px;
+    }
+}
+@media (max-width:1280px) {
+    section{
+        padding: 20px 25px;
+    }
+    .header .container nav .navbar{
+        background-color: transparent;
+        width: 100%;
+        position: absolute;
+        right: 0;
+        top: 16%;
+        margin: 0px auto;
+        display: none;
+        padding: 20px 0px;
+    }
+    .header .container nav .navbar .link{
+        background-color: var(---white);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.13);
+        border-radius: 20px;
+        width: 97%;
+        margin: 0px auto;
+    }
+    .header .container nav .navbar .link a{
+        font-size: 20px;
+        color: var(---purple);
+        font-weight: 400;
+        padding: 20px 20px;
+        text-align: center;
+        border-radius: 20px;
+        display: block;
+    }
+    .header .container nav .right #menu{
+        display: inherit;
+    }
+    .hero .container{
+        display: block;
+    }
+    .hero .heroslider{
+        width: 700px;
+        margin: 0px auto;
+        margin-top: 100px;
+    }
+    .hero .heroslider .imagebox{
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .hero .container .text{
+        text-align: center;
+    }
+    .hero .container .text .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .service .container{
+        display: block;
+    }
+    .service .container .box{
+        width: 510px;
+        height: 100%;
+        background-color: var(---white);
+        border-radius: 20px; 
+        box-shadow: 0px 0px 30px #cc1c6536;
+        margin: 50px auto;
+    }
+    .service {
+        margin-top: 100px;
+    }
+    .service .container{
+        margin-top: 50px;
+    }
+    .about .container{
+        display: block;
+    }
+    .about .container .about-image{
+        width: 700px;
+        margin: 0px auto;
+    }
+    .about .container .text{
+        text-align: center;
+    }
+    .about .container .text .button{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .about{
+        margin-top: 100px;
+    }
+    .tes{
+        margin-top: 100px;
+    }
+    .tes .tesslider .textbox{
+        width: 1000px;
+        height: 400px;
+        background-color: var(---lightgray);
+        border: 5px solid var(---white);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.144);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .tes .tesslider .textbox p{
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 600;
+    color: var(---gray);
+    margin: 20px 0px;
+    }
+    .contact{
+        margin-top: 100px;
+    }
+    .footer .container{
+        display: block;
+    }
+    .footer .container .logo .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .footer .container .right{
+        display: block;
+        text-align: center;
+    }
+    .footer .container .right .link{
+        margin-left: 0px;
+    }
+    .footer .container .right .link{
+        margin: 30px 0px;
+    }
+    .footer{
+        margin-top: 100px;
+    }
+
+}
+@media (max-width:1080px) {
+    section{
+        padding: 20px 20px;
+    }
+    .tes .tesslider .textbox{
+        width: 780px;
+        height: 400px;
+        background-color: var(---lightgray);
+        border: 5px solid var(---white);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.144);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .tes .tesslider .textbox p{
+        font-size: 14px;
+        line-height: 40px;
+        font-weight: 600;
+        color: var(---gray);
+        margin: 20px 0px;
+    }
+    .contact .container{
+        background: linear-gradient(90deg, var(---dark),var(---pink));
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 500px;
+        border-radius: 80px;
+        border: 10px solid var(---white);
+        box-shadow: 0px 20px 50px #cc1c6549;
+    }
+    .contact .container .text .input{
+        width: 90%;
+        height: 115px;
+        display: flex;
+        align-items: center;
+        background-color: var(---white);
+        border-radius: 20px;
+        margin: 0px auto;
+        margin-top: 20px;
+    }
+    .footer .last{
+       display: block;
+       text-align: center;
+    }
+    .footer .last .right-data a{
+        margin: 0px auto;
+    }
+    .footer .last .right-data{
+        display: block;
+        margin-top: 10px;
+    }
+}
+@media (max-width:820px) {
+    .tes .tesslider .textbox{
+        width: 730px;
+        height: 400px;
+        background-color: var(---lightgray);
+        border: 5px solid var(---white);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.144);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .tes .tesslider .textbox p{
+        font-size: 12px;
+        line-height: 30px;
+        font-weight: 600;
+        color: var(---gray);
+        margin: 20px 0px;
+    }
+    .contact .container{
+        height: 600px;
+    }
+}
+@media (max-width:780px) {
+    section{
+        padding: 20px 15px;
+    }
+    .hero .heroslider {
+        background-color: transparent;
+        width: 100%;
+    }
+    .about .container .about-image{
+        width: 100%;
+    }
+    .about .container .text h2{
+        font-size: 30px;
+        color: var(---pink);
+        font-weight: 600;
+    }
+    .about .container .text h1{
+        font-size: 60px;
+        color: var(---purple);
+        font-weight: 400;
+        line-height: 80px;
+    }
+    .about .container .text p{
+        font-size: 16px;
+        color: var(---gray);
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    .about .container .text .button{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .about .container .text .button button{
+        width: 150px;
+        height: 60px;
+        background: linear-gradient(90deg, var(---pink),var(---dark));
+        border-radius: 10px;
+        color: var(---white);
+        font-size: 16px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    .tes .tesslider .textbox{
+        width: 650px;
+        height: 400px;
+        background-color: var(---lightgray);
+        border: 5px solid var(---white);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.144);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .tes .tesslider .textbox p{
+        font-size: 10px;
+        line-height: 30px;
+        font-weight: 600;
+        color: var(---gray);
+        margin: 20px 0px;
+    }
+}
+@media (max-width:690px) {
+    section{
+        padding: 20px 10px;
+    }
+    .hero .container .text h2{
+        font-size: 30px;
+        color: var(---pink);
+        font-weight: 600;
+    }
+    .hero .container .text h1{
+        font-size: 80px;
+        color: var(---purple);
+        font-weight: 700;
+        line-height: 110px;
+    }
+    .hero .container .text span{
+        font-size: 130px;
+        color: var(---pink);
+        font-weight: 900;
+    }
+    .hero .container .text p{
+        font-size: 16px;
+        color: var(---gray);
+        line-height: 40px;
+        margin-top: 10px;
+    }
+    .hero .container .text .button button{
+        width: 150px;
+        height: 60px;
+        background: linear-gradient(90deg, var(---pink),var(---dark));
+        border-radius: 10px;
+        color: var(---white);
+        font-size: 16px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    .service .heading h1{
+        font-size: 60px;
+        color: var(---purple);
+        font-weight: 400;
+    }
+    .service .heading h2{
+        font-size: 20px;
+        color: var(---pink);
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .tes .heading h1{
+        font-size: 60px;
+        color: var(---purple);
+        font-weight: 400;
+    }
+    .tes .heading h2{
+        font-size: 20px;
+        color: var(---pink);
+        font-weight: 600;
+        text-decoration: underline;
+    }
+    .tes .tesslider .textbox{
+        width: 95%;
+        height: 450px;
+        background-color: var(---lightgray);
+        border: 5px solid var(---white);
+        box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.144);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .tes .tesslider .line{
+        background-color: var(---pink);
+        width: 95%;
+        height: 10px;
+        margin: 0px auto;
+        margin-top: 30px;
+    }
+    .contact .container .text h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .contact .container .text p{
+        font-size: 16px;
+        color: var(---white);
+        font-weight: 400;
+        line-height: 40px;
+        margin-top: 10px;
+    }
+}
+@media (max-width:550px) {
+    .header .container nav .right button{
+        display: none;
+    }
+    .header .container nav .right #menu{
+        margin-right: 0px;
+    }
+    .service .container .box{
+        width: 100%;
+        height: 100%;
+        background-color: var(---white);
+        border-radius: 20px; 
+        box-shadow: 0px 0px 30px #cc1c6536;
+        margin: 50px auto;
+    }
+    .about .container .text h1{
+        font-size: 40px;
+        color: var(---purple);
+        font-weight: 400;
+        line-height: 50px;
+    }
+    .about .container .text p{
+        font-size: 12px;
+        color: var(---gray);
+        line-height: 30px;
+    }
+    .about .container .text .button{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .tes .heading h1{
+        font-size: 40px;
+        color: var(---purple);
+        font-weight: 400;
+        line-height: 50px;
+    }
+    .contact .container .text p{
+        font-size: 12px;
+        color: var(---white);
+        font-weight: 400;
+        line-height: 30px;
+        margin-top: 10px;
+        padding: 0px 10px;
+    }
+}
+@media (max-width:500px) {
+    section{
+        padding: 20px 5px;
+    }
+    .hero .container .text h2{
+        font-size: 20px;
+        color: var(---pink);
+        font-weight: 600;
+    }
+    .hero .container .text h1{
+        font-size: 70px;
+        color: var(---purple);
+        font-weight: 700;
+        line-height: 80px;
+    }
+    .hero .container .text span{
+        font-size: 100px;
+        color: var(---pink);
+        font-weight: 900;
+    }
+    .hero .container .text p{
+        font-size: 12px;
+        color: var(---gray);
+        line-height: 20px;
+        margin-top: 0px;
+    }
+    .hero .container .text .button{
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+    }
+    .hero .heroslider{
+        margin-top: 50px;
+    }
+    .service {
+        margin-top: 50px;
+    }
+    .service .container .box{
+        margin: 30px auto;
+    }
+    .service .container .box .text p{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(---gray);
+    margin: 5px 0px;
+    }
+    .service .container{
+        margin-top: 30px;
+    }
+    .about{
+        background-color: transparent;
+        margin-top: 50px;
+    }
+    .about .container .text h2{
+        font-size: 20px;
+        color: var(---pink);
+        font-weight: 600;
+    }
+    .tes{
+        margin-top: 50px;
+    }
+    .tes .tesslider{
+        margin-top: 30px;
+    }
+    .contact .container .text .input input{
+        width: 100%;
+        height: 115px;
+        border-radius: 20px 0px 0px 20px;
+        font-size: 20px;
+        color: var(---purple);
+        font-weight: 500;
+        padding-left: 10px;
+    }
+    .contact .container .text .input button{
+        width: 180px;
+        height: 70px;
+        background-color: var(---pink);
+        color: var(---white);
+        font-weight: 500;
+        font-size: 12px;
+        margin-right: 10px;
+        border-radius: 10px;
+        border: 2px solid var(---white);
+        box-shadow: 0px 10px 20px #cc1c6548;
+        cursor: pointer;
+    }
+    .contact{
+        margin-top: 50px;
+    }
+    .footer{
+        margin-top: 50px;
+    }
+}
+@media (max-width:400px) {
+    .hero .container .text .button a{
+        display: none;
+    }
+    .hero .container .text p{
+        font-size: 10px;
+        color: var(---gray);
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    .hero .container .text h1{
+        font-size: 50px;
+        color: var(---purple);
+        font-weight: 700;
+        line-height: 60px;
+    }
+    .hero .container .text span{
+        font-size: 70px;
+        color: var(---pink);
+        font-weight: 900;
+    }
+    .header .container nav .right #menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 60px;
+        height: 60px;
+        border: 2px solid var(---pink);
+        border-radius: 10px;
+        color: var(---pink);
+        font-size: 25px;
+        cursor: pointer;
+    }
+    .service .heading h1{
+        font-size: 40px;
+        color: var(---purple);
+        font-weight: 400;
+    }
+    .service .container .box .text h1{
+    font-size: 20px;
+    font-weight: 400;
+    color: var(---purple);
+    }
+    .service .container .box .text p{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(---gray);
+    margin: 5px 0px;
+    }
+    .service .container .box .text .btn{
+    font-size: 16px;
+    font-weight: 500;
+    color: var(---purple);
+    }
+    .about .container .text h1{
+        font-size: 35px;
+        color: var(---purple);
+        font-weight: 400;
+        line-height: 45px;
+    }
+    .about .container .text p{
+        font-size: 10px;
+        color: var(---gray);
+        line-height: 30px;
+    }
+    .about .container .text .button{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+    }
+    .about .container .text .button a{
+        display: none;
+    }
+    .tes .tesslider .box .image{
+        display: block;
+    }
+    .contact .container .text .input input{
+        width: 100%;
+        height: 115px;
+        border-radius: 20px 0px 0px 20px;
+        font-size: 16px;
+        color: var(---purple);
+        font-weight: 500;
+        padding-left: 10px;
+    }
+    .footer .last p{
+        font-size: 12px;
+        font-weight: 500;
+        color: var(---purple);
+    }
+    .footer .last .right-data a{
+        font-size: 12px;
+        font-weight: 500;
+        color: var(---purple);
+        margin: 0px 5px;
+    }
+}
+/* media quries */
